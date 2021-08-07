@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/backgroundcolor"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q_two"
+            android:textColor="@color/white"
+            android:textSize="@dimen/Q_text_size" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_ans_two"
+            android:layout_margin="10dp">
+
+            <RadioButton
+                android:id="@+id/one"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sachin Tendulkar"
+                android:textColor="@color/white"
+
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/two"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Virat Kohli"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+
+                android:checked="false"
+                android:textSize="14sp"
+                />
+            <RadioButton
+                android:id="@+id/three"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Adam Gilchirst"
+                android:textColor="@color/white"
+
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:textSize="14sp"
+                />
+            <RadioButton
+                android:id="@+id/four"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Jacques Kallis"
+                android:textColor="@color/white"
+
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:textSize="14sp"
+                />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select any one"
+            android:textColor="@color/white"
+
+            android:textSize="12sp"
+            android:layout_marginVertical="10dp"
+            />
+        <Button
+            android:id="@+id/nextBtn1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:text="@string/Btn"
+            android:background="@drawable/blue_button"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+</layout>

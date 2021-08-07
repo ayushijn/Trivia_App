@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/gametv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GAME :"
+                android:textColor="@color/higlight"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/datetimetv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date - Time"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="3dp"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME : "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_name_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ayushi "
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:text="@string/q_two"
+            android:textSize="14sp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer : "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_ans2_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ans2"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:text="@string/q_three"
+            android:textSize="14sp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answers : "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_ans3_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ans3"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="5dp" />
+    </LinearLayout>
+</layout>

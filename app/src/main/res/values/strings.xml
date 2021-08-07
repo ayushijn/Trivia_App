@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <string name="q_one">What is your name?</string>
+    <string name="q_two">Who is the best cricketer in the world?</string>
+    <string name="q_three">What are the colors in the Indian national flag?</string>
+    <string name="Btn">Next</string>
+
+
+</resources>
